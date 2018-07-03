@@ -1,0 +1,39 @@
+// Colors
+$go-brand-primary: red;
+$go-text-color: black;
+$go-nav-color: $go-brand-primary;
+$go-link-normal: blue;
+$go-link-hover: lightblue;
+$go-link-active: $go-link-hover;
+$go-link-visited: $go-link-normal;
+
+$go-status-success: green;
+$go-status-error: red;
+$go-status-warning: yellow;
+$go-status-info: gray;
+
+$go-background: white;
+$go-background-tab: gray;
+
+$go-border-color: gray;
+$go-shadow-color:  darkgray;
+
+// Fonts
+$go-font-family-base: Poppins;
+$go-font-size-base: 14px;
+$go-font-size-small: $go-font-size-base - 2;
+$go-font-size-large: $go-font-size-base + 2;
+
+// Sizes
+// Need to define sizes for button, large icon, small icon, etc.
+
+// Paths
+$go-images: '../images';
+
+// Layers
+$go-layer-distance: 1000;
+$go-layer-1: 1*$go-layer-distance;
+$go-layer-2: 2*$go-layer-distance;
+$go-layer-3: 3*$go-layer-distance;
+$go-layer-4: 4*$go-layer-distance;
+$go-layer-5: 5*$go-layer-distance;

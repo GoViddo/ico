@@ -1,0 +1,15 @@
+@import "theme";
+
+nav {
+  ul {
+    font-size: $go-font-size-base;
+  }
+
+  li {
+    font-family: $go-font-family-base;
+  }
+
+  a {
+    color: $go-link-normal;
+  }
+}
