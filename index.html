@@ -4,141 +4,215 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="ThirdParty/css/bootstrap.min.css">
+    
+
 
     <style type="text/css">
 
     .logo{
-    	position: absolute;
+        position: relative;
     width: 115px;
     height: 37px;
     }
 
     .t{
-    	background-image: url('app/images/hs1.svg');
-    	background-size: 100%;
-    	width: 100%;
-    	height: 810px;
-    }
-
-
-    @media screen and (min-width: 900px) {
-
-    .nav.navbar-nav li a {
-        color: white;
-        font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 36px;
-    font-size: 16px;
-    display: block;
-    width: 90px;
-    margin-left: 30px;
-    }
-
-    .nav.navbar-nav li a:hover{
-    background-color: #FF0303;
-    }
-
-
-    }
-
-
-
-    @media screen and (min-width: 766px) and (max-width: 900px) {
-
-    .nav.navbar-nav li a {
-        color: white;
-        font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 36px;
-    font-size: 16px;
-    display: block;
-    width: 90px;
-    }
-
-    .nav.navbar-nav li a:hover{
-    background-color: #FF0303;
-    }
-
-    }
-
-    @media screen and (max-width: 766px) {
-
-    .nav.navbar-nav li a {
-        color: black;
-        font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 36px;
-    font-size: 16px;
-    }
+        background-image: url('app/images/hs1.svg');
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        height: 100%;
     }
 
     .demo{
+        color: red;
+    }
 
-    /*position: absolute;
-    width: 469px;
-    height: 82px;
-    left: 72.5px;
-    top: 349.32px;
+    @media screen and (min-width: 800px) {
 
-    font-family: Droid Sans;
+
+    .nav-link {
+        color: white;
+        font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    line-height: 27px;
-    font-size: 15px;
-
-    color: #585858;
-    */
-
+    line-height: 36px;
+    font-size: 16px;
+    display: block;
+    width: 80px;
+    margin-left: 30px;
     }
 
 
-    .demo1{
-    /*	position: absolute;
-    width: 470px;
-    height: 98px;
-    left: 72.5px;
-    top: 231.32px;
+
+.hs-content {
+
+
+margin-top: 220.32px;
+
+}
+
+
+
+
+    }
+
+.hs-content-header
+{
 
     font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 56px;
-    font-size: 30px;
+font-style: normal;
+font-weight: normal;
+line-height: 51px;
+font-size: 30px;
 
-    color: #000000;
-    */}
 
-    .s{
-    /*	font-weight: bold;
-    	font-size: 30px;
-    */}
+color: #000000;
+}
+
+
+.hs-main-content{
+    margin-top: 20px;
+font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 28px;
+font-size: 15px;
+
+color: #626262;
+}
+
+
+.btn-div{
+    margin-top: 50px;
+
+  padding: 10px;
+padding-left: 10px;
+padding-right: 30px;
+
+    background: #FECCCC;
+box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.18);
+border-radius: 8px;
+
+
+
+}
+
+
+
+.btn-commynity{
+background: linear-gradient(104.32deg, #FF362A 10.31%, #FF6535 95.76%);
+border-radius: 10px;
+
+padding: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+font-size: 16px;
+
+color: #FFFFFF;
+
+}
+
+
+
+.btn-whitepaper{
+
+
+   padding: 10px;
+padding-left: 10px;
+padding-right: 30px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+line-height: 36px;
+font-size: 16px;
+
+color: #414141;
+}
+
+
+  
     </style>
+
+
 
 </head>
 <body>
-<div class="container t">
-	<nav class="navbar">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span style="background-color: #000000;" class="icon-bar"></span>
-            <span  style="background-color: #000000;" class="icon-bar"></span>
-            <span style="background-color: #000000;" class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img class="logo" src="app/images/go.png"></a>
-        </div>
-        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Roadmap</a></li>
-            <li><a href="#">Advisors</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Faq</a></li>
-          </ul>
-        </div>
-    </nav>
+<div class="t">
+    
+ 
+
+
+<nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" href="#"><img class="logo" src="app/images/go.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <img src="app\images\navicon.png">
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+        <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+      <a class="nav-link" href="#">Roadmap</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Advisors</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Team</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Faq</a>
+    </li>
+  </ul>
+  </div>  
+</nav>
+
+<div class="container hs-content">
+<div class="row">
+    <div class="col-md-6 hs-content-header">Revolutinising Film Distribution
+& Film Industries Across the World</div>
+
+</div>
+
+
+
+<div class="row">
+   
+<div class="col-md-6 hs-main-content">
+    We are video sharing platform focussing on entertainment and aiming to disrupt the exisiting paradigm of film distribution by using a secure digital platform developed using Blockchain Technology, which will provide free to watch shows in a legitimate way, better transparency for advertisers in their engagement with users, enable new ways of incentivising an engaging community (Producers, Users and Advertisers) through the use of tokens which can be en-cashed in fiat money. 
+</div>
+
+</div>
+
+
+
+
+<div class="row">
+   
+<div class="col-md-4 btn-div">
+    <a class="btn-commynity" href="">JOIN THE COMMUNITY</a> <a class="btn-whitepaper" href="#">Whitepaper</a>
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
 </div>
 
 <script src="ThirdParty/js/jquery.min.js"></script>
