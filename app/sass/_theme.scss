@@ -1,6 +1,6 @@
 // Colors
 $go-brand-primary: #FF1C1C;
-$go-text-color: black;
+$go-text-color: #000000;
 $go-text-color-white: #ffffff;
 $go-nav-color: $go-brand-primary;
 $go-link-normal: blue;
@@ -40,6 +40,8 @@ $go-font-size-large: $go-font-size-base * 2;
 
 $go-font-size-base-point: $go-font-size-base * 1.5;
 
+$go-font-size-roadmap:$go-font-size-base * 1.25;
+
 
 $background-image-size:100%;
 
@@ -75,8 +77,8 @@ $go-featured-div-padding-left-small:10px;
 
 
 //logo size
-$go-navbar-logo-width: 115px;
-$go-navbar-logo-height: 37px;
+$go-navbar-logo-width: 180px;
+$go-navbar-logo-height: 70px;
 
 
 
@@ -227,3 +229,5 @@ $go-opportunity-section-background : $go-images+'/opportunity-section-background
 
 $go-ecosystem-background : $go-images+'/ecosystem-background-image.png';
 
+
+$go-joincommunity-background: $go-images+'/join-community-section.svg';
