@@ -1,11 +1,20 @@
 // Colors
-$go-brand-primary: red;
+$go-brand-primary: #FF1C1C;
 $go-text-color: black;
+$go-text-color-white: #ffffff;
 $go-nav-color: $go-brand-primary;
 $go-link-normal: blue;
 $go-link-hover: lightblue;
 $go-link-active: $go-link-hover;
 $go-link-visited: $go-link-normal;
+
+$go-textcolor-linkedin:skyblue;
+
+
+$go-header-color-faint-black:#0A0A0A;
+
+
+$content-color:#585858;
 
 $go-status-success: green;
 $go-status-error: red;
@@ -15,20 +24,33 @@ $go-status-info: gray;
 $go-background: white;
 $go-background-tab: gray;
 
+
+
 $go-border-color: gray;
 $go-shadow-color:  darkgray;
 
 // Fonts
 $go-font-family-base: Poppins;
-$go-font-size-base: 14px;
-$go-font-size-small: $go-font-size-base - 2;
-$go-font-size-large: $go-font-size-base + 2;
+$go-header-content-font-family : Droid Sans;
+$go-base-font-style:normal;
+$go-base-font-weight:normal;
+$go-font-size-base: 16px;
+$go-font-size-small: $go-font-size-base / 2;
+$go-font-size-large: $go-font-size-base * 2;
+
+$go-font-size-base-point: $go-font-size-base * 1.5;
+
+
+$background-image-size:100%;
+
+
+
 
 // Sizes
 // Need to define sizes for button, large icon, small icon, etc.
 
 // Paths
-$go-images: '../images';
+$go-images: '../../app/images';
 
 // Layers
 $go-layer-distance: 1000;
@@ -37,3 +59,171 @@ $go-layer-2: 2*$go-layer-distance;
 $go-layer-3: 3*$go-layer-distance;
 $go-layer-4: 4*$go-layer-distance;
 $go-layer-5: 5*$go-layer-distance;
+
+
+//featured-div-sizes
+$go-featured-div-padding-right:50px;
+$go-featured-div-padding-left:20px;
+
+
+$go-featured-div-padding-right-medium:30px;
+$go-featured-div-padding-left-medium:10px;
+
+
+$go-featured-div-padding-right-small:20px;
+$go-featured-div-padding-left-small:10px;
+
+
+//logo size
+$go-navbar-logo-width: 115px;
+$go-navbar-logo-height: 37px;
+
+
+
+
+//navigationbar background image
+$go-navbar-background-image-url : $go-images+'/navbar_background_image.svg';
+$go-navbar-background-image-size : 60%;
+$go-navbar-background-repeat : no-repeat;
+$go-navbar-background-position : top right;
+$go-navbar-background-height : 100%;
+
+
+
+//navbar-link-tag-according-to-screen-size
+//changes-in-bootstrap-classes
+
+$go-navlink-text-color:$go-background;
+$go-navlink-text-font-family:$go-font-family-base;
+$go-navlink-text-font-style:$go-base-font-style;
+$go-navlink-text-font-weight:$go-base-font-weight;
+$go-navlink-text-line-height:36px;
+$go-navlink-text-font-size:$go-font-size-base;
+$go-navlink-display-style:block;
+$go-navlink-display-block-width:80px;
+$go-navlink-display-margin-left:30px;
+
+
+
+
+
+//below-navbar-header-section-contents
+$go-navbar-below-header-contante-margin-top:220.32px;
+
+
+
+
+//header-section-content-header-styling
+$header-section-content-header-font-family : $go-font-family-base;
+$header-section-content-header-font-style : $go-base-font-style;
+$header-section-content-header-font-weight : $go-base-font-weight;
+$header-section-content-header-line-height : 51px;
+$header-section-content-header-font-size : $go-font-size-large;
+$header-section-content-header-text-color : $go-text-color;
+
+
+
+
+//header-seaction-below-navbar-main-content-styling
+$go-header-seaction-main-content-margin-top : 20px;
+$go-header-seaction-main-content-font-family : $go-header-content-font-family;
+$go-header-seaction-main-content-font-style : $go-base-font-style;
+$go-header-seaction-main-content-font-weight : $go-base-font-weight;
+$go-header-seaction-main-content-line-height : 28px;
+$go-header-seaction-main-content-font-size : $go-font-size-base;
+$go-header-seaction-main-content-text-color : 15px;
+
+
+
+
+
+//community-joining-div-background-details
+$go-div-btn-join-community-section-margin-top : 50px;
+$go-div-btn-join-community-section-padding : 10px;
+$go-div-btn-join-community-section-padding-left : 10px;
+$go-div-btn-join-community-section-padding-right : 30px;
+
+$go-div-btn-join-community-section-background-color : #FECCCC;
+$go-div-btn-join-community-section-box-shadow : 0px 3px 13px rgba(0, 0, 0, 0.18);
+$go-div-btn-join-community-section-border-radius : 8px;
+
+
+
+
+//joincommunity-actual-communtiy-button-background
+$go-community-div-join-community-btn-background:linear-gradient(104.32deg, #FF362A 10.31%, #FF6535 95.76%);
+$go-community-div-join-community-btn-border-radius:10px;
+$go-community-div-join-community-btn-padding:10px;
+$go-community-div-join-community-btn-font-family:$go-font-family-base;
+$go-community-div-join-community-btn-font-style:$go-base-font-style;
+$go-community-div-join-community-btn-font-weight:500;
+$go-community-div-join-community-btn-line-heigh:36px;
+$go-community-div-join-community-btn-font-size:$go-font-size-base;
+$go-community-div-join-community-btn-color:$go-background;
+
+
+
+
+//joincommunity-div-whitepaper-button-styling
+$go-community-div-whitepaper-btn-padding : 10px;
+$go-community-div-whitepaper-btn-padding-left : 10px;
+$go-community-div-whitepaper-btn-padding-right : 30px;
+$go-community-div-whitepaper-btn-font-family : $go-font-family-base;
+$go-community-div-whitepaper-btn-font-style : $go-base-font-style;
+$go-community-div-whitepaper-btn-font-weight : $go-base-font-weight;
+$go-community-div-whitepaper-btn-line-height : 36px;
+$go-community-div-whitepaper-btn-font-size : $go-font-size-base;
+$go-community-div-whitepaper-btn-text-color : #414141;
+
+
+
+
+ //featured-in-div-style
+ $go-featured-in-div-margin-top : 50px;
+
+
+//featured-in-div-sections
+ $go-featured-in-div-padding-right : $go-featured-div-padding-right;
+ $go-featured-in-div-padding-left : $go-featured-div-padding-left;
+ $go-featured-in-div-font-family : $go-font-family-base;
+ $go-featured-in-div-font-style : $go-base-font-style;
+ $go-featured-in-div-font-weight : 500;
+ $go-featured-in-div-line-height : 36px;
+ $go-featured-in-div-font-size : 24px;
+ $go-featured-in-div-text-align : center;
+ $go-featured-in-div-text-color : $go-brand-primary;
+
+
+
+//traditional-div-traditional-header
+ $go-traditional-div-traditional-header-line-height : 40px;
+$go-traditional-div-traditional-header-font-size : 25px;
+$go-traditional-div-traditional-header-font-weight : 500;
+$go-traditional-div-traditional-header-text-align : center;
+
+
+
+
+
+//wider-release-background-images
+$go-widdrer-release-background : $go-images+'/wider_release_section.svg';
+
+
+
+
+
+//stopping-piracy-background-image
+$go-stopping-piracy-background : $go-images+'/stopping-piracy-background.svg';
+$go-stopping-piracy-background-position: top left;
+
+
+
+//opportunity section background
+$go-opportunity-section-background : $go-images+'/opportunity-section-background.svg';
+
+
+
+//ecosystem background
+
+$go-ecosystem-background : $go-images+'/ecosystem-background-image.png';
+

@@ -11,5 +11,646 @@ nav {
 
   a {
     color: $go-link-normal;
+    border: 1px;
   }
+
+  
+    
+
+}
+
+//navbar-logo-style
+.logo{
+  width: $go-navbar-logo-width;
+  height: $go-navbar-logo-height;
+  }
+
+
+//navbar-background-image-style
+  .navbar-background{
+    background-image: url($go-navbar-background-image-url);
+    background-size: $go-navbar-background-image-size;
+    background-repeat: $go-navbar-background-repeat;
+    background-position: $go-navbar-background-position;
+    height: $go-navbar-background-height;
+}
+
+
+
+
+
+
+//navbar-adjustment-according-to-scree
+@media screen and (min-width: 800px) {
+
+
+  .nav-link {
+  color: $go-navlink-text-color;
+  font-family: $go-navlink-text-font-family;
+  font-style: $go-navlink-text-font-style;
+  font-weight: $go-navlink-text-font-weight;
+  line-height: $go-navlink-text-line-height;
+  font-size: $go-navlink-text-font-size;
+  display: $go-navlink-display-style;
+  width: $go-navlink-display-block-width;
+  margin-left: $go-navlink-display-margin-left;
+  }
+
+
+
+.header-block-content {
+
+
+margin-top: $go-navbar-below-header-contante-margin-top;
+
+}
+
+
+
+
+  }
+  
+
+
+
+
+//header-section-content-header-styling
+  .header-section-content-header
+{
+
+    font-family: $header-section-content-header-font-family;
+font-style: $header-section-content-header-font-style;
+font-weight: $header-section-content-header-font-weight ;
+line-height: $header-section-content-header-line-height;
+font-size: $header-section-content-header-font-size;
+
+
+color: $header-section-content-header-text-color;
+}
+
+
+
+
+//header-seaction-below-navbar-main-content-styling
+.header-seaction-main-content{
+  margin-top: $go-header-seaction-main-content-margin-top;
+font-family: $go-header-seaction-main-content-font-family;
+font-style: $go-header-seaction-main-content-font-style;
+font-weight: $go-header-seaction-main-content-font-weight;
+line-height: $go-header-seaction-main-content-line-height;
+font-size: $go-header-seaction-main-content-font-size;
+
+color: $go-header-seaction-main-content-text-color;
+}
+
+
+
+
+//community-joining-div-background-details
+.div-btn-join-community-section{
+  margin-top: $go-div-btn-join-community-section-margin-top;
+
+padding: $go-div-btn-join-community-section-padding;
+padding-left: $go-div-btn-join-community-section-padding-left;
+padding-right: $go-div-btn-join-community-section-padding-right;
+
+  background: $go-div-btn-join-community-section-background-color;
+box-shadow: $go-div-btn-join-community-section-box-shadow;
+border-radius: $go-div-btn-join-community-section-border-radius;
+
+}
+
+
+
+
+
+
+
+
+
+//joincommunity-actual-communtiy-button-background
+.community-div-join-community-btn{
+  background: $go-community-div-join-community-btn-background;
+  border-radius: $go-community-div-join-community-btn-border-radius;
+  
+  padding: $go-community-div-join-community-btn-padding;
+  
+  font-family: $go-community-div-join-community-btn-font-family;
+  font-style: $go-community-div-join-community-btn-font-style;
+  font-weight: $go-community-div-join-community-btn-font-weight;
+  line-height: $go-community-div-join-community-btn-line-heigh;
+  font-size: $go-community-div-join-community-btn-font-size;
+
+  color: $go-community-div-join-community-btn-color;
+  
+  }
+
+
+
+
+
+//joincommunity-div-whitepaper-button-styling
+  .community-div-whitepaper-btn{
+
+
+    padding: $go-community-div-whitepaper-btn-padding;
+ padding-left: $go-community-div-whitepaper-btn-padding-left;
+ padding-right: $go-community-div-whitepaper-btn-padding-right;
+ 
+ font-family: $go-community-div-whitepaper-btn-font-family;
+ font-style: $go-community-div-whitepaper-btn-font-style;
+ font-weight: $go-community-div-whitepaper-btn-font-weight;
+ line-height: $go-community-div-whitepaper-btn-line-height;
+ font-size: $go-community-div-whitepaper-btn-font-size;
+ 
+ color: $go-community-div-whitepaper-btn-text-color ;
+ }
+ 
+   
+
+
+
+ //featured-in-div-style
+ .featured-in-div{
+   margin-top: $go-featured-in-div-margin-top;
+   margin-bottom: 2*$go-featured-in-div-margin-top;
+ }
+
+
+ @media screen and (min-width: 1200px) {
+
+//featured-in-div-sections
+ .featured-in-div-1{
+   padding-right:  $go-featured-in-div-padding-right;
+  font-family: $go-featured-in-div-font-family;
+  font-style: $go-featured-in-div-font-style;
+  font-weight: $go-featured-in-div-font-weight;
+  line-height: $go-featured-in-div-line-height;
+  font-size: $go-featured-in-div-font-size;
+  text-align: $go-featured-in-div-text-align;
+  color: $go-featured-in-div-text-color;
+ }
+
+ .featured-in-div-2{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/bitcoinimage.svg");
+  }
+
+}
+
+
+.featured-in-div-3{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/linkdinimage.svg");
+  }
+
+}
+
+
+.featured-in-div-4{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/mediumimage.svg");
+  }
+
+}
+
+
+
+.featured-in-div-5{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/telegramimage.svg");
+  }
+
+}
+
+
+
+.featured-in-div-6{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/financialtimesimage.svg");
+  }
+
+}
+ }
+
+
+
+ @media screen and (max-width: 1200px) and (min-width: 1000px) {
+
+  //featured-in-div-sections
+   .featured-in-div-1{
+     padding-right:  $go-featured-div-padding-right-small;
+    font-family: $go-featured-in-div-font-family;
+    font-style: $go-featured-in-div-font-style;
+    font-weight: $go-featured-in-div-font-weight;
+    line-height: $go-featured-in-div-line-height;
+    font-size: $go-featured-in-div-font-size;
+    text-align: $go-featured-in-div-text-align;
+    color: $go-featured-in-div-text-color;
+   }
+  
+   .featured-in-div-2{
+    padding-right: $go-featured-div-padding-right-small;
+    padding-left: $go-featured-div-padding-left-small;
+  
+    img{
+      content:url("../../app/images/bitcoinimage.svg");
+    }
+  
+  }
+  
+  
+  .featured-in-div-3{
+    padding-right: $go-featured-div-padding-right-small;
+    padding-left: $go-featured-div-padding-left-small;
+  
+    img{
+      content:url("../../app/images/linkdinimage.svg");
+    }
+  
+  }
+  
+  
+  .featured-in-div-4{
+    padding-right: $go-featured-div-padding-right-small;
+    padding-left: $go-featured-div-padding-left-small;
+  
+    img{
+      content:url("../../app/images/mediumimage.svg");
+    }
+  
+  }
+  
+  
+  
+  .featured-in-div-5{
+    padding-right: $go-featured-div-padding-right-small;
+    padding-left: $go-featured-div-padding-left-small;
+  
+    img{
+      content:url("../../app/images/telegramimage.svg");
+    }
+  
+  }
+  
+  
+  
+  .featured-in-div-6{
+    padding-right: $go-featured-div-padding-right-small;
+    padding-left: $go-featured-div-padding-left-small;
+  
+    img{
+      content:url("../../app/images/financialtimesimage.svg");
+    }
+  
+  }
+   }
+
+
+   @media screen and (max-width: 1000px) {
+
+    //featured-in-div-sections
+     .featured-in-div-1{
+       padding-right:  $go-featured-div-padding-right-small;
+      font-family: $go-featured-in-div-font-family;
+      font-style: $go-featured-in-div-font-style;
+      font-weight: $go-featured-in-div-font-weight;
+      line-height: $go-featured-in-div-line-height;
+      font-size: $go-featured-in-div-font-size;
+      text-align: $go-featured-in-div-text-align;
+      color: $go-featured-in-div-text-color;
+     }
+    
+     .featured-in-div-2{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/bitcoinimagesmall.svg");
+      }
+    
+    }
+    
+    
+    .featured-in-div-3{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/linkdinimagesmall.svg");
+      }
+    
+    }
+    
+    
+    .featured-in-div-4{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/mediumimagesmall.svg");
+      }
+    
+    }
+    
+    
+    
+    .featured-in-div-5{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/telegramimagesmall.svg");
+      }
+    
+    }
+    
+    
+    
+    .featured-in-div-6{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/financialtimesimagesmall.svg");
+      }
+    
+
+    }
+     }
+
+
+     .traditional-film-distribution-div{
+      background-image: url('../../app/images/traditional-distribution-div-background.svg');
+      background-size: $background-image-size;
+      background-repeat: $go-navbar-background-repeat;
+      height: $go-navbar-background-height;
+    }
+
+    
+
+
+
+//traditional-div-traditional-header
+.traditional-div-traditional-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: $go-traditional-div-traditional-header-font-weight;
+line-height: $go-traditional-div-traditional-header-line-height;
+font-size: $go-traditional-div-traditional-header-font-size;
+text-align: $go-traditional-div-traditional-header-text-align;
+
+color: $go-brand-primary;
+}
+
+
+
+//traditional-div-film-distributor-header
+.traditional-div-film-distributor-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: $go-traditional-div-traditional-header-font-weight;
+line-height: $go-traditional-div-traditional-header-line-height;
+font-size: $go-traditional-div-traditional-header-font-size;
+text-align: $go-traditional-div-traditional-header-text-align;
+
+color: $go-text-color;
+}
+
+
+.goviddo-way-div-header{
+  img{
+    content:url("../../app/images/LogoGoV.svg");
+  }
+}
+
+
+
+
+
+.goviddo-way-header-content{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 45px;
+font-size: 24px;
+color: #000000;
+}
+
+
+
+.content-goviddo-way-scetion-1{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color:$go-brand-primary;
+
+span{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color: $go-header-color-faint-black;
+}
+
+}
+
+
+
+
+
+.content-goviddo-way-scetion-2{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color:$go-text-color;
+
+span{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color: $go-header-color-faint-black;
+}
+
+}
+
+
+
+
+
+
+
+.content-main-goviddo-way{
+  font-family: $go-header-content-font-family;
+font-style: $go-base-font-style;
+font-weight: $go-base-font-style;
+line-height: 27px;
+font-size: 15px;
+
+color: $content-color;
+}
+
+
+
+.wider_release_header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: bold;
+line-height: 48px;
+font-size: 29px;
+
+color:$go-brand-primary;
+
+}
+
+
+.widder-release-header-content{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 45px;
+font-size: 24px;
+color: $go-text-color;
+font-weight: bold;
+}
+
+
+
+.widder-release-background{
+  background-image: url($go-widdrer-release-background);
+    background-size: $go-navbar-background-image-size;
+    background-repeat: $go-navbar-background-repeat;
+    background-position: $go-navbar-background-position;
+    height: $go-navbar-background-height;
+}
+
+
+
+.stopping-piracy-background{
+  background-image: url($go-stopping-piracy-background);
+  background-size: $go-navbar-background-image-size;
+  background-repeat: $go-navbar-background-repeat;
+  background-position: $go-stopping-piracy-background-position;
+  height: $go-navbar-background-height;
+  resize: both;
+  background-size: 50%;
+}
+
+
+
+
+.opportunity-section-background{
+  background-image: url($go-opportunity-section-background);
+  background-size: $go-navbar-background-image-size;
+  background-repeat: $go-navbar-background-repeat;
+  background-position: $go-navbar-background-position;
+  height: $go-navbar-background-height;
+  background-size: 50%;
+}
+
+
+.ecosystem-block-background{
+  background-image: url($go-ecosystem-background); 
+  height: $go-navbar-background-height;
+  background-size:cover;
+}
+
+
+.ecosystem-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 56px;
+font-size: $go-font-size-large;
+padding-top: 50px;
+color: $go-text-color-white;
+}
+
+
+.our-team-section-background{
+  background-image: url($go-ecosystem-background); 
+  height: $go-navbar-background-height;
+  background-size:cover;
+}
+
+
+.our-team-section-header{
+  font-family: $go-font-family-base;
+  font-style: $go-base-font-style;
+  font-weight: 500;
+  line-height: 47px;
+  font-size: $go-font-size-large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: $go-text-color-white; 
+}
+
+
+
+//team section text color
+
+.text-color-team-contnet{
+  color: $go-text-color-white; 
+}
+
+
+
+
+.our-patner-content-section{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 38px;
+font-size: $go-font-size-base-point;
+text-align: center;
+
+color: #131010;
+}
+
+
+
+.linkedin-parent-position{
+position: relative;
+
+}
+
+
+
+.linkedin-position-goviddo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background: $go-background;
+}
+
+
+.text-color-linkedin{
+  color: $go-textcolor-linkedin;
 }

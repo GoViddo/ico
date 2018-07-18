@@ -1,11 +1,374 @@
 nav ul {
-  font-size: 14px;
-}
+  font-size: 16px; }
 nav li {
-  font-family: Poppins;
-}
+  font-family: Poppins; }
 nav a {
   color: blue;
-}
+  border: 1px; }
+
+.logo {
+  width: 115px;
+  height: 37px; }
+
+.navbar-background {
+  background-image: url("../../app/images/navbar_background_image.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%; }
+
+@media screen and (min-width: 800px) {
+  .nav-link {
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    font-size: 16px;
+    display: block;
+    width: 80px;
+    margin-left: 30px; }
+
+  .header-block-content {
+    margin-top: 220.32px; } }
+.header-section-content-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 51px;
+  font-size: 32px;
+  color: black; }
+
+.header-seaction-main-content {
+  margin-top: 20px;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  color: 15px; }
+
+.div-btn-join-community-section {
+  margin-top: 50px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  background: #FECCCC;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.18);
+  border-radius: 8px; }
+
+.community-div-join-community-btn {
+  background: linear-gradient(104.32deg, #FF362A 10.31%, #FF6535 95.76%);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  font-size: 16px;
+  color: white; }
+
+.community-div-whitepaper-btn {
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  color: #414141; }
+
+.featured-in-div {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+@media screen and (min-width: 1200px) {
+  .featured-in-div-1 {
+    padding-right: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    text-align: center;
+    color: #FF1C1C; }
+
+  .featured-in-div-2 {
+    padding-right: 50px;
+    padding-left: 20px; }
+    .featured-in-div-2 img {
+      content: url("../../app/images/bitcoinimage.svg"); }
+
+  .featured-in-div-3 {
+    padding-right: 50px;
+    padding-left: 20px; }
+    .featured-in-div-3 img {
+      content: url("../../app/images/linkdinimage.svg"); }
+
+  .featured-in-div-4 {
+    padding-right: 50px;
+    padding-left: 20px; }
+    .featured-in-div-4 img {
+      content: url("../../app/images/mediumimage.svg"); }
+
+  .featured-in-div-5 {
+    padding-right: 50px;
+    padding-left: 20px; }
+    .featured-in-div-5 img {
+      content: url("../../app/images/telegramimage.svg"); }
+
+  .featured-in-div-6 {
+    padding-right: 50px;
+    padding-left: 20px; }
+    .featured-in-div-6 img {
+      content: url("../../app/images/financialtimesimage.svg"); } }
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .featured-in-div-1 {
+    padding-right: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    text-align: center;
+    color: #FF1C1C; }
+
+  .featured-in-div-2 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-2 img {
+      content: url("../../app/images/bitcoinimage.svg"); }
+
+  .featured-in-div-3 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-3 img {
+      content: url("../../app/images/linkdinimage.svg"); }
+
+  .featured-in-div-4 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-4 img {
+      content: url("../../app/images/mediumimage.svg"); }
+
+  .featured-in-div-5 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-5 img {
+      content: url("../../app/images/telegramimage.svg"); }
+
+  .featured-in-div-6 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-6 img {
+      content: url("../../app/images/financialtimesimage.svg"); } }
+@media screen and (max-width: 1000px) {
+  .featured-in-div-1 {
+    padding-right: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    text-align: center;
+    color: #FF1C1C; }
+
+  .featured-in-div-2 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-2 img {
+      content: url("../../app/images/bitcoinimagesmall.svg"); }
+
+  .featured-in-div-3 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-3 img {
+      content: url("../../app/images/linkdinimagesmall.svg"); }
+
+  .featured-in-div-4 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-4 img {
+      content: url("../../app/images/mediumimagesmall.svg"); }
+
+  .featured-in-div-5 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-5 img {
+      content: url("../../app/images/telegramimagesmall.svg"); }
+
+  .featured-in-div-6 {
+    padding-right: 20px;
+    padding-left: 10px; }
+    .featured-in-div-6 img {
+      content: url("../../app/images/financialtimesimagesmall.svg"); } }
+.traditional-film-distribution-div {
+  background-image: url("../../app/images/traditional-distribution-div-background.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.traditional-div-traditional-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: #FF1C1C; }
+
+.traditional-div-film-distributor-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: center;
+  color: black; }
+
+.goviddo-way-div-header img {
+  content: url("../../app/images/LogoGoV.svg"); }
+
+.goviddo-way-header-content {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 24px;
+  color: #000000; }
+
+.content-goviddo-way-scetion-1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 19px;
+  color: #FF1C1C; }
+  .content-goviddo-way-scetion-1 span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 19px;
+    color: #0A0A0A; }
+
+.content-goviddo-way-scetion-2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 19px;
+  color: black; }
+  .content-goviddo-way-scetion-2 span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 19px;
+    color: #0A0A0A; }
+
+.content-main-goviddo-way {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+  font-size: 15px;
+  color: #585858; }
+
+.wider_release_header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 29px;
+  color: #FF1C1C; }
+
+.widder-release-header-content {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 24px;
+  color: black;
+  font-weight: bold; }
+
+.widder-release-background {
+  background-image: url("../../app/images/wider_release_section.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%; }
+
+.stopping-piracy-background {
+  background-image: url("../../app/images/stopping-piracy-background.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 100%;
+  resize: both;
+  background-size: 50%; }
+
+.opportunity-section-background {
+  background-image: url("../../app/images/opportunity-section-background.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%;
+  background-size: 50%; }
+
+.ecosystem-block-background {
+  background-image: url("../../app/images/ecosystem-background-image.png");
+  height: 100%;
+  background-size: cover; }
+
+.ecosystem-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+  font-size: 32px;
+  padding-top: 50px;
+  color: #ffffff; }
+
+.our-team-section-background {
+  background-image: url("../../app/images/ecosystem-background-image.png");
+  height: 100%;
+  background-size: cover; }
+
+.our-team-section-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  font-size: 32px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff; }
+
+.text-color-team-contnet {
+  color: #ffffff; }
+
+.our-patner-content-section {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  font-size: 24px;
+  text-align: center;
+  color: #131010; }
+
+.linkedin-parent-position {
+  position: relative; }
+
+.linkedin-position-goviddo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background: white; }
+
+.text-color-linkedin {
+  color: skyblue; }
 
 /*# sourceMappingURL=app.css.map */
