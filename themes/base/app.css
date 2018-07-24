@@ -596,4 +596,12 @@ a:hover {
 a {
   cursor: pointer; }
 
+.timelineproject {
+  color: #ffffff; }
+
+.text-team-member-description {
+  color: #ffffff;
+  font-family: Droid Sans;
+  margin-top: -25px; }
+
 /*# sourceMappingURL=app.css.map */
