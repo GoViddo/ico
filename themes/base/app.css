@@ -11,14 +11,14 @@ nav a {
   width: 180px;
   height: 70px; }
 
-.navbar-background {
-  background-image: url("../../app/images/navbar_background_image.svg");
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: top right;
-  height: 100%; }
-
 @media screen and (min-width: 992px) {
+  .navbar-background {
+    background-image: url("../../app/images/navbar_background_image.svg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100%; }
+
   .nav-link {
     color: white;
     font-family: Poppins;
@@ -32,6 +32,13 @@ nav a {
 
   .header-block-content {
     margin-top: 220.32px; } }
+@media screen and (max-width: 992px) {
+  .navbar-background {
+    background-image: url("../../app/images/navbar_background_image.svg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100%; } }
 .header-section-content-header {
   font-family: Poppins;
   font-style: normal;
@@ -50,6 +57,7 @@ nav a {
   color: 15px; }
 
 .div-btn-join-community-section {
+  white-space: nowrap;
   margin-top: 50px;
   padding: 10px;
   padding-left: 10px;
@@ -126,42 +134,43 @@ nav a {
       content: url("../../app/images/financialtimesimage.svg"); } }
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
   .featured-in-div-1 {
-    padding-right: 20px;
+    padding-right: 50px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
     font-size: 24px;
     text-align: center;
-    color: #FF1C1C; }
+    color: #FF1C1C;
+    display: none; }
 
   .featured-in-div-2 {
-    padding-right: 20px;
-    padding-left: 10px; }
+    padding-right: 50px;
+    padding-left: 20px; }
     .featured-in-div-2 img {
       content: url("../../app/images/bitcoinimage.svg"); }
 
   .featured-in-div-3 {
-    padding-right: 20px;
-    padding-left: 10px; }
+    padding-right: 50px;
+    padding-left: 20px; }
     .featured-in-div-3 img {
       content: url("../../app/images/linkdinimage.svg"); }
 
   .featured-in-div-4 {
-    padding-right: 20px;
-    padding-left: 10px; }
+    padding-right: 50px;
+    padding-left: 20px; }
     .featured-in-div-4 img {
       content: url("../../app/images/mediumimage.svg"); }
 
   .featured-in-div-5 {
-    padding-right: 20px;
-    padding-left: 10px; }
+    padding-right: 50px;
+    padding-left: 20px; }
     .featured-in-div-5 img {
       content: url("../../app/images/telegramimage.svg"); }
 
   .featured-in-div-6 {
-    padding-right: 20px;
-    padding-left: 10px; }
+    padding-right: 50px;
+    padding-left: 20px; }
     .featured-in-div-6 img {
       content: url("../../app/images/financialtimesimage.svg"); } }
 @media screen and (max-width: 1000px) {
@@ -173,7 +182,8 @@ nav a {
     line-height: 36px;
     font-size: 24px;
     text-align: center;
-    color: #FF1C1C; }
+    color: #FF1C1C;
+    display: none; }
 
   .featured-in-div-2 {
     padding-right: 20px;
@@ -337,6 +347,10 @@ nav a {
   height: 100%;
   background-size: cover; }
 
+.team-section {
+  margin-left: 40px;
+  margin-right: 40px; }
+
 .our-team-section-header {
   font-family: Poppins;
   font-style: normal;
@@ -348,7 +362,8 @@ nav a {
   color: #ffffff; }
 
 .text-color-team-contnet {
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: left; }
 
 .our-patner-content-section {
   font-family: Poppins;
@@ -542,7 +557,6 @@ Bootstrap FAQs CSS */
   padding: 0; }
 
 .accordion-section .panel-default .panel-title a {
-  display: block;
   font-style: italic;
   font-size: 1.5rem;
   color: #FF0000; }
@@ -552,14 +566,12 @@ Bootstrap FAQs CSS */
   font-style: normal;
   font-size: 3rem;
   content: "\f106";
-  box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.25);
   transform: matrix(1, 0, 0, -1, 0, 0);
   float: right;
   margin-top: -12px;
   color: #FF0000; }
 
 .accordion-section .panel-default .panel-title a.collapsed:after {
-  content: "\f107";
   color: #FF0000; }
 
 .accordion-section .panel-default .panel-body {
@@ -598,10 +610,77 @@ a {
 
 .timelineproject {
   color: #ffffff; }
+  .timelineproject span {
+    padding-left: 20px; }
+
+.timelineproduct {
+  color: #000000; }
+  .timelineproduct span {
+    padding-left: 20px; }
 
 .text-team-member-description {
   color: #ffffff;
   font-family: Droid Sans;
-  margin-top: -25px; }
+  margin-top: -25px;
+  text-align: left; }
+
+.our-team {
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative; }
+
+.our-team img {
+  width: 129px;
+  transform: scale(1);
+  transition: all 1s ease 0s; }
+
+.our-team:hover img {
+  transform: scale(1.2); }
+
+.our-team .team-content {
+  background: #640087;
+  border-radius: 50%;
+  padding-top: 20%;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-out 0s;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.our-team:hover .team-content {
+  opacity: 0.8; }
+
+.our-team .icon {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.our-team .icon li {
+  display: inline-block; }
+
+.our-team .icon li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 6px;
+  transition: all 0.3s ease 0s; }
+
+.our-team .icon li a:hover {
+  background: #e6af2e;
+  border: 1px solid #e6af2e; }
+
+@media only screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=app.css.map */
