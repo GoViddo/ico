@@ -11,5 +11,1158 @@ nav {
 
   a {
     color: $go-link-normal;
+    border: 1px;
+  }
+
+  
+    
+
+}
+
+//navbar-logo-style
+.logo{
+  width: $go-navbar-logo-width;
+  height: $go-navbar-logo-height;
+  }
+
+
+//navbar-background-image-style
+ 
+
+
+
+
+
+//navbar-adjustment-according-to-scree
+@media screen and (min-width: 992px) {
+
+  .navbar-background{
+    background-image: url($go-navbar-background-image-url);
+    background-size: $go-navbar-background-image-size;
+    background-repeat: $go-navbar-background-repeat;
+    background-position: $go-navbar-background-position;
+    height: $go-navbar-background-height;
+}
+
+
+  .nav-link {
+  color: $go-navlink-text-color;
+  font-family: $go-navlink-text-font-family;
+  font-style: $go-navlink-text-font-style;
+  font-weight: $go-navlink-text-font-weight;
+  line-height: $go-navlink-text-line-height;
+  font-size: $go-navlink-text-font-size;
+  display: $go-navlink-display-style;
+  width: $go-navlink-display-block-width;
+  margin-left: $go-navlink-display-margin-left;
+  }
+
+
+
+.header-block-content {
+
+
+margin-top: $go-navbar-below-header-contante-margin-top;
+
+}
+
+
+
+
+  }
+
+
+
+
+
+
+  
+//navbar-adjustment-according-to-scree
+@media screen and (max-width: 992px) {
+
+  .navbar-background{
+    background-image: url($go-navbar-background-image-url);
+    background-size: $go-navbar-background-image-size;
+    background-repeat: $go-navbar-background-repeat;
+    background-position: $go-navbar-background-position;
+    height: $go-navbar-background-height;
+}
+
+
+  
+
+
+
+  }
+  
+
+
+
+
+//header-section-content-header-styling
+  .header-section-content-header
+{
+
+    font-family: $header-section-content-header-font-family;
+font-style: $header-section-content-header-font-style;
+font-weight: $header-section-content-header-font-weight ;
+line-height: $header-section-content-header-line-height;
+font-size: $header-section-content-header-font-size;
+
+
+color: $header-section-content-header-text-color;
+}
+
+
+
+
+//header-seaction-below-navbar-main-content-styling
+.header-seaction-main-content{
+  margin-top: $go-header-seaction-main-content-margin-top;
+font-family: $go-header-seaction-main-content-font-family;
+font-style: $go-header-seaction-main-content-font-style;
+font-weight: $go-header-seaction-main-content-font-weight;
+line-height: $go-header-seaction-main-content-line-height;
+font-size: $go-header-seaction-main-content-font-size;
+
+color: $go-header-seaction-main-content-text-color;
+}
+
+
+
+
+//community-joining-div-background-details
+.div-btn-join-community-section{
+  white-space: nowrap;
+  margin-top: $go-div-btn-join-community-section-margin-top;
+
+padding: $go-div-btn-join-community-section-padding;
+padding-left: $go-div-btn-join-community-section-padding-left;
+padding-right: $go-div-btn-join-community-section-padding-right;
+
+  background: $go-div-btn-join-community-section-background-color;
+box-shadow: $go-div-btn-join-community-section-box-shadow;
+border-radius: $go-div-btn-join-community-section-border-radius;
+
+}
+
+
+
+
+
+
+
+
+
+//joincommunity-actual-communtiy-button-background
+.community-div-join-community-btn{
+  
+  background: $go-community-div-join-community-btn-background;
+  border-radius: $go-community-div-join-community-btn-border-radius;
+  
+  padding: $go-community-div-join-community-btn-padding;
+  
+  font-family: $go-community-div-join-community-btn-font-family;
+  font-style: $go-community-div-join-community-btn-font-style;
+  font-weight: $go-community-div-join-community-btn-font-weight;
+  line-height: $go-community-div-join-community-btn-line-heigh;
+  font-size: $go-community-div-join-community-btn-font-size;
+
+  color: $go-community-div-join-community-btn-color;
+  
+  }
+
+
+
+
+
+//joincommunity-div-whitepaper-button-styling
+  .community-div-whitepaper-btn{
+
+  
+    padding: $go-community-div-whitepaper-btn-padding;
+ padding-left: $go-community-div-whitepaper-btn-padding-left;
+ padding-right: $go-community-div-whitepaper-btn-padding-right;
+ 
+ font-family: $go-community-div-whitepaper-btn-font-family;
+ font-style: $go-community-div-whitepaper-btn-font-style;
+ font-weight: $go-community-div-whitepaper-btn-font-weight;
+ line-height: $go-community-div-whitepaper-btn-line-height;
+ font-size: $go-community-div-whitepaper-btn-font-size;
+ 
+ color: $go-community-div-whitepaper-btn-text-color ;
+ }
+ 
+   
+
+
+
+ //featured-in-div-style
+ .featured-in-div{
+   margin-top: $go-featured-in-div-margin-top;
+   margin-bottom: 2*$go-featured-in-div-margin-top;
+ }
+
+
+ @media screen and (min-width: 1200px) {
+
+//featured-in-div-sections
+ .featured-in-div-1{
+   padding-right:  $go-featured-in-div-padding-right;
+  font-family: $go-featured-in-div-font-family;
+  font-style: $go-featured-in-div-font-style;
+  font-weight: $go-featured-in-div-font-weight;
+  line-height: $go-featured-in-div-line-height;
+  font-size: $go-featured-in-div-font-size;
+  text-align: $go-featured-in-div-text-align;
+  color: $go-featured-in-div-text-color;
+ }
+
+ .featured-in-div-2{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/bitcoinimage.svg");
+  }
+
+}
+
+
+.featured-in-div-3{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/linkdinimage.svg");
+  }
+
+}
+
+
+.featured-in-div-4{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/mediumimage.svg");
+  }
+
+}
+
+
+
+.featured-in-div-5{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/telegramimage.svg");
+  }
+
+}
+
+
+
+.featured-in-div-6{
+  padding-right: $go-featured-in-div-padding-right;
+  padding-left: $go-featured-in-div-padding-left;
+
+  img{
+    content:url("../../app/images/financialtimesimage.svg");
+  }
+
+}
+ }
+
+
+
+ @media screen and (max-width: 1200px) and (min-width: 1000px) {
+
+  //featured-in-div-sections
+ .featured-in-div-1{
+  padding-right:  $go-featured-in-div-padding-right;
+ font-family: $go-featured-in-div-font-family;
+ font-style: $go-featured-in-div-font-style;
+ font-weight: $go-featured-in-div-font-weight;
+ line-height: $go-featured-in-div-line-height;
+ font-size: $go-featured-in-div-font-size;
+ text-align: $go-featured-in-div-text-align;
+ color: $go-featured-in-div-text-color;
+ display: none;
+}
+
+.featured-in-div-2{
+ padding-right: $go-featured-in-div-padding-right;
+ padding-left: $go-featured-in-div-padding-left;
+
+ img{
+   content:url("../../app/images/bitcoinimage.svg");
+ }
+
+}
+
+
+.featured-in-div-3{
+ padding-right: $go-featured-in-div-padding-right;
+ padding-left: $go-featured-in-div-padding-left;
+
+ img{
+   content:url("../../app/images/linkdinimage.svg");
+ }
+
+}
+
+
+.featured-in-div-4{
+ padding-right: $go-featured-in-div-padding-right;
+ padding-left: $go-featured-in-div-padding-left;
+
+ img{
+   content:url("../../app/images/mediumimage.svg");
+ }
+
+}
+
+
+
+.featured-in-div-5{
+ padding-right: $go-featured-in-div-padding-right;
+ padding-left: $go-featured-in-div-padding-left;
+
+ img{
+   content:url("../../app/images/telegramimage.svg");
+ }
+
+}
+
+
+
+.featured-in-div-6{
+ padding-right: $go-featured-in-div-padding-right;
+ padding-left: $go-featured-in-div-padding-left;
+
+ img{
+   content:url("../../app/images/financialtimesimage.svg");
+ }
+
+}
+
+   }
+
+
+   @media screen and (max-width: 1000px) {
+
+    //featured-in-div-sections
+     .featured-in-div-1{
+       padding-right:  $go-featured-div-padding-right-small;
+      font-family: $go-featured-in-div-font-family;
+      font-style: $go-featured-in-div-font-style;
+      font-weight: $go-featured-in-div-font-weight;
+      line-height: $go-featured-in-div-line-height;
+      font-size: $go-featured-in-div-font-size;
+      text-align: $go-featured-in-div-text-align;
+      color: $go-featured-in-div-text-color;
+      display: none;
+     }
+    
+     .featured-in-div-2{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/bitcoinimagesmall.svg");
+      }
+    
+    }
+    
+    
+    .featured-in-div-3{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/linkdinimagesmall.svg");
+      }
+    
+    }
+    
+    
+    .featured-in-div-4{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/mediumimagesmall.svg");
+      }
+    
+    }
+    
+    
+    
+    .featured-in-div-5{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/telegramimagesmall.svg");
+      }
+    
+    }
+    
+    
+    
+    .featured-in-div-6{
+      padding-right: $go-featured-div-padding-right-small;
+      padding-left: $go-featured-div-padding-left-small;
+    
+      img{
+        content:url("../../app/images/financialtimesimagesmall.svg");
+      }
+    
+
+    }
+     }
+
+
+     .traditional-film-distribution-div{
+      background-image: url('../../app/images/traditional-distribution-div-background.svg');
+      background-size: $background-image-size;
+      background-repeat: $go-navbar-background-repeat;
+      height: $go-navbar-background-height;
+    }
+
+    
+
+
+
+//traditional-div-traditional-header
+.traditional-div-traditional-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: $go-traditional-div-traditional-header-font-weight;
+line-height: $go-traditional-div-traditional-header-line-height;
+font-size: $go-traditional-div-traditional-header-font-size;
+text-align: $go-traditional-div-traditional-header-text-align;
+
+color: $go-brand-primary;
+}
+
+
+
+//traditional-div-film-distributor-header
+.traditional-div-film-distributor-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: $go-traditional-div-traditional-header-font-weight;
+line-height: $go-traditional-div-traditional-header-line-height;
+font-size: $go-traditional-div-traditional-header-font-size;
+text-align: $go-traditional-div-traditional-header-text-align;
+
+color: $go-text-color;
+}
+
+
+.goviddo-way-div-header{
+  img{
+    content:url("../../app/images/LogoGoV.svg");
   }
 }
+
+
+
+
+
+.goviddo-way-header-content{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 45px;
+font-size: 24px;
+color: #000000;
+}
+
+
+
+.content-goviddo-way-scetion-1{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color:$go-brand-primary;
+
+span{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color: $go-header-color-faint-black;
+}
+
+}
+
+
+
+
+
+.content-goviddo-way-scetion-2{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color:$go-text-color;
+
+span{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 26px;
+font-size: 19px;
+
+color: $go-header-color-faint-black;
+}
+
+}
+
+
+
+
+
+
+
+.content-main-goviddo-way{
+  font-family: $go-header-content-font-family;
+font-style: $go-base-font-style;
+font-weight: $go-base-font-style;
+line-height: 27px;
+font-size: 15px;
+
+color: $content-color;
+}
+
+
+
+.wider_release_header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: bold;
+line-height: 48px;
+font-size: 29px;
+
+color:$go-brand-primary;
+
+}
+
+
+.widder-release-header-content{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 45px;
+font-size: 24px;
+color: $go-text-color;
+font-weight: bold;
+}
+
+
+
+.widder-release-background{
+  background-image: url($go-widdrer-release-background);
+    background-size: $go-navbar-background-image-size;
+    background-repeat: $go-navbar-background-repeat;
+    background-position: $go-navbar-background-position;
+    height: $go-navbar-background-height;
+}
+
+
+
+.stopping-piracy-background{
+  background-image: url($go-stopping-piracy-background);
+  background-size: $go-navbar-background-image-size;
+  background-repeat: $go-navbar-background-repeat;
+  background-position: $go-stopping-piracy-background-position;
+  height: $go-navbar-background-height;
+  resize: both;
+  background-size: 50%;
+}
+
+
+
+
+.opportunity-section-background{
+  background-image: url($go-opportunity-section-background);
+  background-size: $go-navbar-background-image-size;
+  background-repeat: $go-navbar-background-repeat;
+  background-position: $go-navbar-background-position;
+  height: $go-navbar-background-height;
+  background-size: 50%;
+}
+
+
+.ecosystem-block-background{
+  background-image: url($go-ecosystem-background); 
+  height: $go-navbar-background-height;
+  background-size:cover;
+}
+
+
+.ecosystem-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 56px;
+font-size: $go-font-size-large;
+padding-top: 50px;
+color: $go-text-color-white;
+}
+
+
+.our-team-section-background{
+  background-image: url($go-ecosystem-background); 
+  height: $go-navbar-background-height;
+  background-size:cover;
+}
+
+.team-section{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.our-team-section-header{
+  font-family: $go-font-family-base;
+  font-style: $go-base-font-style;
+  font-weight: 500;
+  line-height: 47px;
+  font-size: $go-font-size-large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: $go-text-color-white; 
+}
+
+
+
+//team section text color
+
+.text-color-team-contnet{
+  color: $go-text-color-white; 
+  text-align: left;
+}
+
+
+
+
+.our-patner-content-section{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 500;
+line-height: 100px;
+font-size: $go-font-size-base-point;
+text-align: center;
+
+color: #131010;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .linkedin-parent-position{
+    position: relative;
+    
+    }
+
+
+    .linkedin-position-goviddo{
+      position: absolute;
+      top: 0;
+      right: 220px;
+      border-radius: 50%;
+      background: $go-background;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 800px) {
+  .linkedin-parent-position{
+    position: relative;
+    
+    }
+    
+    
+    .linkedin-position-goviddo{
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 50%;
+      background: $go-background;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.text-color-linkedin{
+  color: $go-textcolor-linkedin;
+}
+
+
+
+.traditional-div-film-distributor-header-roadmap{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: $go-base-font-weight;
+font-size: $go-font-size-roadmap;
+text-align: center;
+
+color: $go-text-color;
+}
+
+
+
+
+
+
+
+
+
+
+.joincommunity-section-background{
+  background-image: url($go-joincommunity-background); 
+  height: $go-navbar-background-height;
+  background-size:cover;
+}
+
+
+.joincommunity-header{
+  font-family: $go-font-family-base;
+font-style: $go-base-font-style;
+font-weight: 600;
+line-height: 35px;
+font-size: $go-font-size-base-point;
+
+color: $go-text-color-white;
+}
+
+
+
+
+.community-section-content{
+  font-family: $go-header-content-font-family;
+font-style: $go-base-font-style;
+font-weight: $go-base-font-weight;
+line-height: 25px;
+font-size: $go-font-size-base;
+
+color: $go-text-color-white; 
+}
+
+.community-joining-div{
+  background: $go-background;
+  border-radius: 5px;
+  padding-top: 7px;
+
+
+  input{
+    border-radius: 5px;
+  }
+
+  .join-button{
+    background: linear-gradient(180deg, #FE2523 0%, #FD5F4A 71.67%);
+    font-family: $go-header-content-font-family;
+font-style: $go-base-font-style;
+font-weight: $go-base-font-weight;
+line-height: 24px;
+font-size: $go-font-size-base;
+
+color: $go-text-color-white;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+ 
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #ED3237;;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #ED3237;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ED3237 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #ED3237;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #ED3237;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #ED3237 transparent transparent;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Bootstrap FAQs CSS */
+
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #FFDCDC;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #FF0000;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  
+transform: matrix(1, 0, 0, -1, 0, 0);
+  float: right;
+  margin-top: -12px;
+  color: #FF0000;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  color: #FF0000; 
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+  margin-top: -16px;
+  background: #FFDCDC;
+}
+
+
+
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: $go-text-color-white;
+}
+
+
+
+
+
+
+.tooltip-inner {
+  max-width: none;
+  white-space: nowrap;
+  background:white;
+  border:1px solid lightgray;
+-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
+color:gray;
+margin:0;
+padding:0;
+}
+
+.tooltip.bottom .tooltip-arrow {
+top: 0;
+left: 50%;
+margin-left: -5px;
+border-bottom-color: lightgray; /* black */
+border-width: 0 5px 5px;
+}
+
+a {cursor:pointer;}
+
+.timelineproject{
+  color: $go-text-color-white;
+
+  span{
+    padding-left: 20px;
+  }
+}
+
+
+.timelineproduct{
+  color: $go-text-color;
+
+  span{
+    padding-left: 20px;
+  }
+}
+
+
+
+.text-team-member-description{
+  color: $go-text-color-white;
+  font-family: $go-header-content-font-family;
+  margin-top: -25px;
+  text-align: left;
+}
+
+
+
+.our-team{
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team {
+  img{
+  width: 129px;
+  
+  transform: scale(1);
+  transition: all 1s ease 0s;
+  }
+}
+
+.our-team:hover {
+  img{
+  transform: scale(1.2);
+  }
+}
+
+.our-team {
+  .team-content{
+  background: #640087;
+  border-radius: 50%;
+  padding-top: 20%;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-out 0s;
+  width: 100%;
+   height: 100%;
+  text-align: center;
+  }
+}
+
+
+.our-team:hover {
+  .team-content{
+  opacity: 0.8;
+  }
+}
+
+
+
+.our-team{
+  .icon{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
+}
+
+.our-team{
+  .icon{
+    li{
+  display: inline-block;
+    }
+  }
+}
+
+.our-team{
+  .icon{
+    li{
+      a{
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 6px;
+  transition: all 0.3s ease 0s;
+      }
+    }
+  }
+}
+
+
+.our-team{
+  .icon{
+    li{
+      a:hover{
+  background: #e6af2e;
+  border: 1px solid #e6af2e;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 990px){
+  .our-team{ margin-bottom: 30px; }
+}
+  
